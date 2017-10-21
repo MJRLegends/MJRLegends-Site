@@ -184,8 +184,9 @@ body {
  }
  .btn-default {
      color: #42dca3;
-     border: 1px solid #42dca3;
-     background-color: transparent
+     border: 3px solid #42dca3;
+     background-color: transparent;
+	 text-shadow: 2px 2px #000000
  }
  .btn-default:focus,
  .btn-default:hover {

@@ -1,0 +1,13 @@
+# disable directory browsing
+Options All -Indexes
+
+#Prevent access to multiple file types
+<FilesMatch "\.(html|css)$">
+    allow from all
+</FilesMatch>
+
+#Prevent Access to .htaccess
+<Files .htaccess>
+	Order allow,deny
+	Deny from all
+</Files>

@@ -52,14 +52,18 @@ body {
      border-bottom: 1px solid rgba(255, 255, 255, .3);
      background-color: #000
  }
+ 
+ #mainNav .main_container{
+	 margin: 0px 10px 0px 10px;
+	 float: right;
+	 width: 75%;
+	 text-align: right
+ }
  #mainNav .navbar-toggler {
      font-size: 14px;
      padding: 11px;
      color: #fff;
      border: 1px solid #fff
- }
- #mainNav .navbar-brand {
-     font-weight: 700
  }
  #mainNav a {
      color: #fff
@@ -79,7 +83,7 @@ body {
      outline: 0;
      background-color: transparent
  }
- @media (min-width: 992px) {
+ @media (min-width: 1108px) {
      #mainNav {
          padding-top: 20px;
          padding-bottom: 20px;
@@ -103,6 +107,13 @@ body {
      #mainNav .nav-link.active:hover {
          color: #fff
      }
+ }
+ .navbar-brand{
+	 padding-left: 20px;
+	 display: inline;
+	 float: left;
+	 width: 20%;
+	 margin: 0px;
  }
  .main-header {
      display: table;

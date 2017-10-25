@@ -38,12 +38,12 @@ body {
      -webkit-transition: all .2s ease-in-out;
      -moz-transition: all .2s ease-in-out;
      transition: all .2s ease-in-out;
-     color: #42dca3
+     color: #3366ff
  }
  a:focus,
  a:hover {
      text-decoration: none;
-     color: #1d9b6c
+     color: #3366ff
  }
  #mainNav {
      font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -175,14 +175,26 @@ body {
      padding-top: 150px;
      padding-bottom: 150px
  }
- .mods-section {
+ .content-section-alt {
      color: #fff;
      background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
      background-color: #000;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
-     background-size: cover
+     background-size: cover;
+ }
+ .mods-section{
+     color: white;
+     background-color: black;
+	 padding-top: 50px;
+	 padding-bottom: 50px
+ }
+ .mods-section-alt {
+     color: black;
+     background-color: white;
+	 padding-top: 50px;
+	 padding-bottom: 50px
  }
  .btn {
      font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;

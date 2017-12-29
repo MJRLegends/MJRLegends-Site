@@ -172,11 +172,15 @@ body {
      background: rgba(255, 255, 255, .1)
  }
  .content-section {
+	 color: white;
+	 text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+	 font-size: 20px;
      padding-top: 150px;
      padding-bottom: 150px
  }
  .content-section-alt {
-     color: #fff;
+     color: white;
+	 text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
      background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
      background-color: #000;
      -webkit-background-size: cover;
@@ -186,12 +190,14 @@ body {
  }
  .mods-section{
      color: white;
+     text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
      background-color: black;
 	 padding-top: 50px;
 	 padding-bottom: 50px
  }
  .mods-section-alt {
      color: black;
+     text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
      background-color: white;
 	 padding-top: 50px;
 	 padding-bottom: 50px

@@ -50,7 +50,7 @@ var gameOverButtons = []; //An array to store the game over screen buttons
 //Load the image
 var image = new Image();
 image.addEventListener("load", gameMain, false);
-image.src = "falldown/images/spritesheet.png";
+image.src = "images/spritesheet.png";
 
 //Key codes
 var RIGHT = 39; // Used to store the key code for the RIGHT button
@@ -591,7 +591,7 @@ function render() {
 function mainMenu(){ // Render method for the main menu
 	//Renders the background image for the main menu
 	var image = new Image();
-	image.src= "falldown/images/menuBackground.png";
+	image.src= "images/menuBackground.png";
 	drawingSurface.drawImage(image,0,0,canvas.width,canvas.height);
 	
 	//Renders menu title to the canvas
@@ -638,7 +638,7 @@ function settings(){ // Render method for the settings menu
 function gameOver(completed){ // Render method for the game over screen
 	//Renders the background image for the main menu
 	var image = new Image();
-	image.src= "falldown/images/menuBackground.png";
+	image.src= "images/menuBackground.png";
 	drawingSurface.drawImage(image,0,0,canvas.width,canvas.height);
 	
 	//Renders menu title to the canvas

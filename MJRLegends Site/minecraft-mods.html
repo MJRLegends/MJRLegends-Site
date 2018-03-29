@@ -47,6 +47,9 @@
 						<li class="nav-item">
 							<a class="nav-link js-scroll-trigger" href="#moreplanetextras">MorePlanet Extras</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#planetprogression">Planet Progression</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -60,7 +63,7 @@
 							<h1 class="brand-heading">MJRLegends</h1>
 							<p class="intro-text">
 							</p>
-							<a href="#about" class="btn btn-circle js-scroll-trigger">
+							<a href="#extraplanets" class="btn btn-circle js-scroll-trigger">
 							<i class="fa fa-angle-double-down animated"></i>
 							</a>
 						</div>
@@ -104,6 +107,7 @@
 							<li>Other Galaxies/Galaxies Selector (MC 1.8.9/1.10.2/1.11.2/1.12.2 only!)</li>
 							<li>Extended Galacticraft Galaxy Map Screen with Extra Information</li>
 							<li>CraftTweaker Support (WIP, 1.12.2 Only!) <a href="https://github.com/MJRLegends/ExtraPlanets/wiki/CraftTweakerSupport-1.12-only!" >See Here for Methods</a> </li>
+							<li>Dynamic Surroundings Support - via official config files <a href="https://github.com/MJRLegends/ExtraPlanets/tree/master/Dynamic%20Surroundings%20Configs" >here</a> </li>
 							<li>And more....</li>
 						</ul>
 						<h3> Planets included in addon: </h3>
@@ -190,6 +194,7 @@
 							<li>Adds ability to add shapeless Compressor Recipes</li>
 							<li>Adds ability to remove Circuit Fabricator Recipes</li>
 							<li>Adds ability to add Circuit Fabricator Recipes</li>
+							<li>Adds ability to change Space Station Recipes</li>
 						</ul>
 						<p> CraftTweaker Methods can be found with examples <a href="https://github.com/MJRLegends/GalacticraftTweaker/wiki/CraftTweakerSupport" >Here</a></p> 
 						<h3> Credits </h3>
@@ -336,6 +341,70 @@
 				</div>
 			</div>
 		</section>
+		<!-- Planet Progression Section -->
+		<section id="planetprogression" class="mods-section-alt">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<h2 style="text-align: center;color: #4286f4">Planet Progression</h2>
+						<h3> Information/Details: </h3>
+						<p> 
+							This is a Galacticraft addon which is designed to add research to the Space Exploration, 
+							the mod has multiple Research Modes which range in different hardness levels 
+							(You can change this via the Config file). 
+						</p>	
+						<p>This mod is compatible with all Galacticraft addons, and any issues will be considered a bug</p>
+						<h3> Progression Steps: </h3>
+						
+						<h4> Research Mode 1 Progression Steps: </h4>
+						<ul>
+							<li>1. Find Research Paper in Dungeon Loot or in a Structure which is added by this mod (Will be depending on what the config options are set too)</li>
+							<li>2. Craft a Telescope</li>
+							<li>3. Put the Research Paper & a battery in the Telescope</li>
+							<li>4. Telescope will research the Planet/Moon that the research paper is set for, this will take a certain amount of time to do so</li>
+							<li>5. Telescope will unlock the Planet/Moon (Allowing you to see/travel to the Planet/Moon) that the research paper is set for at 100% progress on the Telescope</li>
+						</ul>
+						<br>
+						<h4> Research Mode 2 Progression Steps DEFAULT MODE: </h4>
+						<ul>
+						<li>1. Craft a Satellite Builder</li>
+						<li>2. Craft a Basic Satellite using the Satellite Builder</li>
+						<li>3. Craft a Satellite Rocket using the Nasa Workbench</li>
+						<li>4. Launch Satellite Rocket with Basic Satellite in the rocket cargo (Multi Satellites can be launched at once)</li>
+						<li>5. Satellite will be correctly sent to space at y 1200</li>
+						<li>6. Craft a Satellite Controller</li>
+						<li>7. Use the Satellite Controller to access to the Satellite, you will need to place a battery or connect power for it to work</li>
+						<li>8. Using the Satellite Controller select the satellite you want to research with using the arrow buttons on the GUI</li>
+						<li>9. The Satellite Controller will then send a message to the Satellite to start researching, this will take a certain amount of time to do so</li>
+						<li>10. Once the progress gets to 100% in the Satellite Controller it will give you a research paper based on your already unlock list</li>
+						<li>11. Craft a Telescope</li>
+						<li>12. Put the Research Paper & a battery in the Telescope</li>
+						<li>13. Telescope will research the Planet/Moon that the research paper is set for, this will take a certain amount of time to do so</li>
+						<li>14. Telescope will unlock the Planet/Moon (Allowing you to see/travel to the Planet/Moon) that the research paper is set for at 100% progress on the Telescope</li>
+						</ul>
+						<h4> Research Mode 3 Progression Steps: </h4>
+
+						<p> Coming soon! </p>
+
+						<h3> Commands: </h3>
+						<ul>
+						<li>/addNewSatellite <player> - Used to add a new satellite to the player specified</li>
+						<li>/removeAllSatellites <player> - Used to remove all satellites for player specified</li>
+						<li>/removeAllUnlockedCelestialBody <player> - Used to remove all planets & moons that are unlocked for player specified</li>
+						<li>/removeUnlockedCelestialBody <player> <celestialBodyName> - Used to remove the specified planet or moon being unlocked for the player specified</li>
+						<li>/unlockAllCelestialBodies <player> - Used to unlock all planets & moons for player specified</li>
+						<li>/unlockCelestialBody <player> <celestialBodyName> - Used to unlock the specified planet or moon for the player specified</li>
+						</ul>
+						<h3> Credits </h3>
+						<p>
+							Me(MJRLegends) for creating the addon
+							<br>micdoodle8, radfast and others for creating the galacticraft mod
+						</p>
+						<a href="https://minecraft.curseforge.com/projects/more-planet-extras" class="btn btn-default btn-lg">Visit Download Page</a>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- Contact Section -->
 		<section id="contact" class="content-section text-center">
 			<div class="container">
@@ -372,13 +441,10 @@
 				<p>Copyright &copy; MJRLegends.com 2017/2018</p>
 			</div>
 		</footer>
-		<!-- Bootstrap core JavaScript -->
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/popper/popper.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<!-- Plugin JavaScript -->
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-		<!-- Custom scripts for this template -->
 		<script src="js/main.js"></script>
 	</body>
 </html>

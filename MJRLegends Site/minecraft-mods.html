@@ -222,6 +222,18 @@
 							There is a teleporter block that can be accessed from the creative window, for a two way or one way teleporter from and to the planet!
 						</p>
 						<h3> Change log </h3>
+						<h3> Config Information (Including ranges for Config options):</h3>
+						<p>You can also fully customize the planets gravity, rocket tier required and more, from the config file!</p>
+						<ul>
+							<li>Gravity: Ranges is from 0.010 to 0.1 (Overworld is like 0.030)</li>
+							<li>Fall Damage: Ranges is from 0 to 1 (Overworld is a value of 1)</li>
+							<li>Wind Level: Ranges is from 0 to 1 (Overworld is a value of 1)</li>
+							<li>Thermal Level Multiplier: Ranges is from -1000 to 1000 (Overworld is a value of 0)</li>
+							<li>Sound Vol Reduction: Ranges is from 0 to 100 (Overworld is a value of 0)</li>
+							<li>Star Brightness: Ranges from 0 to 100</li>
+							<li>Solar Energy Multiplier: Ranges from 0 to 100</li>
+							<li>Fuel Usage Multiplier: Ranges from 0 to 100</li>
+						</ul>
 						<a href="https://github.com/MJRLegends/BlankPlanet/blob/master/CHANGELOG%20AND%20FUTURE_PLANS.txt">1.7.10 - Here</a><br>
 						<a href="https://github.com/MJRLegends/BlankPlanet/blob/dev_1.8.9/CHANGELOG%20AND%20FUTURE_PLANS.txt">1.8.9 - Here</a><br>
 						<a href="https://github.com/MJRLegends/BlankPlanet/blob/dev_1.10.2/CHANGELOG%20AND%20FUTURE_PLANS.txt">1.10.2 - Here</a><br>
@@ -251,20 +263,22 @@
 						<br>
 						<h3> Features: </h3>
 						<ul>
-							<li>Ability to disable certain parts creation</li>
-							<li>Ability to disable all parts creation</li>
-							<li>Ability to disable certain modifiers</li>
-							<li>Ability to disable all modifiers</li>
-							<li>Ability to disable all parts for a certain material</li>
-							<li>Ability to disable parts that can be used for replacements</li>
-							<li>Ability to disable all part replacements </li>
-							<li>Ability to disable creation of certain types of tools</li>
-							<li>Ability to disable creation of all tools</li>
-							<li>Ability to disable creation of certain types of parts</li>
+							<li>Ability to disable tools/part for a certain material (uses material name, example: stone)</li>
+							<li>Ability using certain materials to be used as replacement parts</li>
+							<li>Ability to disable registering of certain (uses modifier name, example: mending_moss)</li>
+							<li>Ability to disable certain of all modifiers</li>
+							<li>Ability to disable creation of certain part sets (uses part name, example: pick_head)</li>
+							<li>Ability to disable certain of all parts</li>
+							<li>Ability to disable creation of certain tools (uses part name, example: pickaxe)</li>
+							<li>Ability to disable certain of all tools</li>
+							<li>Ability to disable creation of certain tools based on material type (uses tool name & material name, example: pickaxe:stone)</li>
+							<li>Ability to disable creation of certain parts based on material type (uses part name & material name, example: pickaxe_head:stone)</li>
+							<li>Config option to output Materials/Modifier names to the Log/Console</li>
 						</ul>
 						<p> If you have any features you would like to see please let me know in the comments section </p>
 						<br>
 						<h3> Credits </h3>
+						<p>
 							Me(MJRLegends) for creating the addon
 							<br>Tinkers Construct Team - for creating Tinkers Construct
 						</p>
@@ -283,8 +297,9 @@
 						<p> A library of generic code for my other mods </p>
 						<h3> Mods using MJRLegendsLib: </h3>
 						<ul>
-							<li> ExtraPlanets (MC 1.8.9, MC 1.10.2, MC 1.11.2, MC 1.12.2)</li> 
-							<li> BlankPlanet (MC 1.8.9, MC 1.10.2, MC 1.11.2, MC 1.12.2)</li> 
+							<li> <a href="https://minecraft.curseforge.com/projects/extraplanets">ExtraPlanets (MC 1.8.9, MC 1.10.2, MC 1.11.2, MC 1.12.2)</a></li> 
+							<li> <a href="https://minecraft.curseforge.com/projects/blank-planet">BlankPlanet (MC 1.8.9, MC 1.10.2, MC 1.11.2, MC 1.12.2)</a></li> 
+							<li> <a href="https://minecraft.curseforge.com/projects/planet-progression">Planet Progression (MC 1.8.9, MC 1.10.2, MC 1.11.2, MC 1.12.2)</a></li> 
 						</ul>
 						<a href="https://minecraft.curseforge.com/projects/mjrlegendslib" class="btn btn-default btn-lg">Visit Download Page</a>
 					</div>
@@ -298,9 +313,8 @@
 					<div class="col-lg-8 mx-auto">
 						<h2 style="text-align: center;color: #4286f4">Space Astronomy Tweaks</h2>
 						<h3> Information/Details: </h3>
-						<p> 
-							This is very small mod, that is used for Small Tweaks for the Space Astronomy Mod Pack & Space Astronomy 2 Mod Pack
-						</p>
+						<p>This is very small mod, that is used for Small Tweaks for the Space Astronomy Mod Pack & Space Astronomy 2 Mod Pack</p>
+						<p>Note: Only made for use in the Space Astronomy Mod Pack & Space Astronomy 2 Mod Pack, it would be useless in other mod packs!</p>
 						<h3> Credits </h3>
 						<p>
 							Me(MJRLegends) for creating the mod
@@ -330,7 +344,7 @@
 							<li>Venus (1.7.10 only!)</li>
 							<li>Chalos  (1.8.9/1.10.2/1.11.2 only!)</li>
 						</ul>
-						<h5> All Space stations recipes are designed to be items and blocks from the planet they are orbiting above </h5>
+						<p> All Space stations recipes are designed to be items and blocks from the planet they are orbiting above </p>
 						<h3> Credits </h3>
 						<p>
 							Me(MJRLegends) for creating the addon
@@ -399,6 +413,7 @@
 						<p>
 							Me(MJRLegends) for creating the addon
 							<br>micdoodle8, radfast and others for creating the galacticraft mod
+							<br>LegendGamer for custom rocket models
 						</p>
 						<a href="https://minecraft.curseforge.com/projects/more-planet-extras" class="btn btn-default btn-lg">Visit Download Page</a>
 					</div>

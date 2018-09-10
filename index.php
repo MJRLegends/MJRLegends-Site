@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Personal Site for MJRLegends">
-		<meta name="author" content="MJRLegends">
 		<title>MJRLegends</title>
-		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-		<link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-		<link href="css/main.css" rel="stylesheet">
+		<?php 
+			include("header.php"); // Include the header section that is in a external file
+		?>
 	</head>
 	<body id="page-top">
 		<!-- Navigation -->
@@ -101,7 +95,7 @@
 						<br>
 						My Main Mods are MJRLegendsLib, Tinkers Extras, ExtraPlanets, Blank Planet, Space Astronomy Tweaks
 					</p>
-					<a href="/minecraft-mods.html" class="btn btn-default btn-lg">View Details</a>
+					<a href="/minecraft-mods.php" class="btn btn-default btn-lg">View Details</a>
 				</div>
 			</div>
 		</section>
@@ -114,7 +108,7 @@
 						<br>
 						My Minecraft Mod Packs are Space Astronomy 1 & Space Astronomy 2
 					</p>
-					<a href="/minecraft-modpacks.html" class="btn btn-default btn-lg">View Details!</a>
+					<a href="/minecraft-modpacks.php" class="btn btn-default btn-lg">View Details!</a>
 				</div>
 			</div>
 		</section>
@@ -126,7 +120,7 @@
 					<p>You can find details on the Desktop Applications I've created below <br>
 						
 					</p>
-					<a href="/desktop-apps.html" class="btn btn-default btn-lg">View Details!</a>
+					<a href="/desktop-apps.php" class="btn btn-default btn-lg">View Details!</a>
 				</div>
 			</div>
 		</section>
@@ -136,7 +130,7 @@
 				<div class="col-lg-8 mx-auto">
 					<h2>Games</h2>
 					<p>You can find details on the Games I've created below</p>
-					<a href="/games.html" class="btn btn-default btn-lg">View Details</a>
+					<a href="/games.php" class="btn btn-default btn-lg">View Details</a>
 				</div>
 			</div>
 		</section>
@@ -146,7 +140,7 @@
 				<div class="col-lg-8 mx-auto">
 					<h2>MJRBot Chat Bot</h2>
 					<p>You can find details on the Chat Bots I've created below</p>
-					<a href="http://mjrlegends.com/mjrbot" class="btn btn-default btn-lg">Visit MJRBot Control Panel</a>
+					<a href="https://mjrbot.mjrlegends.com/" class="btn btn-default btn-lg">Visit MJRBot Control Panel</a>
 				</div>
 			</div>
 		</section>
@@ -243,16 +237,8 @@
 				</div>
 			</div>
 		</section>
-		<!-- Footer -->
-		<footer>
-			<div class="container text-center">
-				<p>Copyright &copy; MJRLegends.com 2017/2018</p>
-			</div>
-		</footer>
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/popper/popper.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-		<script src="js/main.js"></script>
+		<?php 
+			include("footer.php"); // Include the footer section that is in a external file
+		?>
 	</body>
 </html>

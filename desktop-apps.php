@@ -3,7 +3,7 @@
 	<head>
 		<title>MJRLegends - Desktop Apps</title>
 		<?php 
-			include("header.php"); // Include the header section that is in a external file
+			include("../header.php"); // Include the header section that is in a external file
 		?>
 	</head>
 	<body id="page-top">
@@ -136,7 +136,7 @@
 			</div>
 		</section>
 		<?php 
-			include("footer.php"); // Include the footer section that is in a external file
+			include("../footer.php"); // Include the footer section that is in a external file
 		?>
 	</body>
 </html>

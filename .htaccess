@@ -1,4 +1,5 @@
 # disable directory browsing
+php_flag display_errors on
 Options All -Indexes
 
 #Prevent access to multiple file types

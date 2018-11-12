@@ -42,6 +42,9 @@
 							<a class="nav-link js-scroll-trigger" href="#jenkins">Jenkins</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#maven">Maven Repository</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link js-scroll-trigger" href="#github">GitHub</a>
 						</li>
 						<li class="nav-item">
@@ -157,8 +160,20 @@
 				</div>
 			</div>
 		</section>
+		<!-- Maven Section -->
+		<section id="maven" class="content-section-alt content-section text-center">
+			<div class="container">
+				<div class="col-lg-8 mx-auto">
+					<h2>Maven Repository</h2>
+					<p>
+						You can find the link below for to access my Maven Repository. 
+					</p>
+					<a href="http://maven.mjrlegends.com" class="btn btn-default btn-lg">Visit Maven Repository</a>
+				</div>
+			</div>
+		</section>
 		<!-- Github Section -->
-		<section id="github" class="content-section-alt content-section text-center">
+		<section id="github" class="content-section content-section text-center">
 			<div class="container">
 				<div class="col-lg-8 mx-auto">
 					<h2>GitHub Projects</h2>
@@ -208,7 +223,7 @@
 			</div>
 		</section>
 		<!-- Contact Section -->
-		<section id="contact" class="content-section-alt content-section text-center">
+		<section id="contact" class="content-section content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">

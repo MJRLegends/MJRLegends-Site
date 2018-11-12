@@ -72,7 +72,10 @@
 							<li> Run Minecraft Server </li>
 							<li> Generate Javadoc API documentation</li>
 						</ul>
-						<a href="" class="btn btn-default btn-lg">Download - Coming Soon</a> <br><br>
+						<a href="https://mjrlegends.com/downloads/Minecraft Forge Tool v1.5.2.exe" class="btn btn-default btn-lg">Download v1.5.2</a> <br><br>
+						<a href="https://mjrlegends.com/downloads/Minecraft Forge Tool v1.5.1.exe" class="btn btn-default btn-lg">Download v1.5.1</a> <br><br>
+						<a href="https://mjrlegends.com/downloads/Minecraft Forge Tool v1.5.0.exe" class="btn btn-default btn-lg">Download v1.5.0</a> <br><br>
+						<a href="https://mjrlegends.com/downloads/Minecraft Forge Tool v1.0.0.exe" class="btn btn-default btn-lg">Download v1.0.0</a> <br><br>
 						<a href="https://github.com/MJRLegends/Minecraft-Forge-Tool" class="btn btn-default btn-lg">Source Code</a>
 					</div>
 				</div>
@@ -99,8 +102,9 @@
 							<li> Support to include certain folders & files for both Client & Server files </li>
 							<li> Support to include certain Mods Client & Server files </li>
 						</ul>
-						<a href="" class="btn btn-default btn-lg">Download - Coming Soon</a> <br><br>
-						<a href="https://github.com/MJRLegends/Minecraft-Forge-Tool" class="btn btn-default btn-lg">Source Code</a>
+						<a href="https://mjrlegends.com/downloads/Minecraft Mod Pack Packager v2.0.0.exe" class="btn btn-default btn-lg">Download v2.0.0</a> <br><br>
+						<a href="https://mjrlegends.com/downloads/Minecraft Mod Pack Packager v1.0.0.exe" class="btn btn-default btn-lg">Download v1.0.0</a> <br><br>
+						<a href="https://github.com/MJRLegends/Minecraft-Mod-Pack-Packager" class="btn btn-default btn-lg">Source Code</a>
 					</div>
 				</div>
 			</div>

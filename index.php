@@ -82,8 +82,9 @@
 						<h2>About MJRLegends</h2>
 						<p>Hello, My Online Handle is MJRLegends <br>
 							I started off learning programming languages in my free time, Mainly VB and C#. But recently got a A Level in Software Development.<br>
-							I have a range of different projects which some can be found here on this site or/and over at my Github.<br>
-							My Main languages are: C#, Java, JavaScript, HTML, CSS, And a parts of LUA, C++. And many more..
+							I have a range of different projects which some can be found here on this site or/and over at my Github.<br><br>
+							My Main languages are: C#, Java <br><br>
+							Im currently learning the following languages: JavaScript, HTML, CSS, PHP, C++
 						</p>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 <footer>
 	<div class="container text-center">
-		<p>Copyright &copy; MJRLegends.com 2017/2018</p>
+		<p>Copyright &copy; MJRLegends.com 2017/2019</p>
 	</div>
 </footer>
 <script src="vendor/jquery/jquery.min.js"></script>

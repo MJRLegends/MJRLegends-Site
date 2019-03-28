@@ -81,10 +81,10 @@
 					<div class="col-lg-8 mx-auto">
 						<h2>About MJRLegends</h2>
 						<p>Hello, My Online Handle is MJRLegends <br>
-							I started off learning programming languages in my free time, Mainly VB and C#. But recently got a A Level in Software Development.<br>
+							I started off learning programming languages in my free time, Mainly VB and C#. But recently got a A Level in Software Development.<br><br>
 							I have a range of different projects which some can be found here on this site or/and over at my Github.<br><br>
-							My Main languages are: C#, Java <br><br>
-							Im currently learning the following languages: JavaScript, HTML, CSS, PHP, C++
+							My Main languages are: C#, Java <br>
+							Im currently learning the following languages: JavaScript, HTML, CSS, PHP
 						</p>
 					</div>
 				</div>

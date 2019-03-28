@@ -210,15 +210,8 @@
 						<a href="https://shadowfacts.net/tutorials/forge-modding-112/" class="btn btn-default btn-lg">MC 1.12</a>
 						<br>
 						<br>
-						<h5> ---------Tutorials--------- </h5>
-						<p style="margin: 0px;">How Do I Change My Ram Assignment/Usage For Minecraft On Curse/TwitchApp?</p> <a href="http://imgur.com/a/MBcw8" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How To I Locate A Crash Log On Minecraft On Curse/TwitchApp?</p> <a href="http://imgur.com/a/MgIK4" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How Do I Install Space Astronomy 1 & 2 On The New Twitch App?</p> <a href="http://imgur.com/a/CYxre" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How Do I Play A Mod Pack On The New Twitch App?</p> <a href="http://imgur.com/a/cBNZs" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How Do I Locate A Crash Log On Minecraft On FTB?</p> <a href="http://imgur.com/a/IbWNC" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How Do I Download The Server Files For Space Astronomy 2?</p> <a href="http://imgur.com/a/7WgaK" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How Do I Download The Server Files For Space Astronomy 1?</p> <a href="http://imgur.com/a/SaSIi" class="btn btn-default btn-lg">Here</a><br><br>
-						<p style="margin: 0px;">How do i help my Minecraft run more efficiently/better?</p> <a href="https://imgur.com/a/BnC55" class="btn btn-default btn-lg">Here</a><br><br>
+						<h5> --------Help Guides-------- </h5>
+						<p style="margin: 0px;">Wiki</p> <a href="https://docs.mjrlegends.com/" class="btn btn-default btn-lg">Here</a><br><br>
 					</div>
 				</div>
 			</div>

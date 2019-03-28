@@ -48,7 +48,7 @@
 			</div>
 		</header>
 		<!-- SpaceAstronomy1 Section -->
-		<section id="spaceastronomy1" class="mods-section">
+		<section id="spaceastronomy1" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -80,7 +80,7 @@
 			</div>
 		</section>
 		<!-- SpaceAstronomy2 Section -->
-		<section id="spaceastronomy2" class="mods-section-alt">
+		<section id="spaceastronomy2" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">

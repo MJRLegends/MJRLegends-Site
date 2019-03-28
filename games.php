@@ -48,7 +48,7 @@
 			</div>
 		</header>
 		<!-- Pac-Man-Remake Section -->
-		<section id="pacman" class="mods-section">
+		<section id="pacman" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto" style="text-align: center">
@@ -115,7 +115,7 @@
 			</div>
 		</section>
 		<!-- Falldown Section -->
-		<section id="falldown" class="mods-section-alt">
+		<section id="falldown" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="mx-auto" style="text-align: center">

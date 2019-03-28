@@ -48,7 +48,7 @@
 			</div>
 		</header>
 		<!-- Minecraft Forge Tool Section -->
-		<section id="forgetool" class="mods-section">
+		<section id="forgetool" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -82,7 +82,7 @@
 			</div>
 		</section>
 		<!-- Minecraft Mod Pack Packager Section -->
-		<section id="modpackpackager" class="mods-section-alt">
+		<section id="modpackpackager" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">

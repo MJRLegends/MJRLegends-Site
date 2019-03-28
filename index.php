@@ -187,7 +187,7 @@
 			</div>
 		</section>
 		<!-- FAQ Section -->
-		<section id="faq" class="content-section">
+		<section id="faq" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">

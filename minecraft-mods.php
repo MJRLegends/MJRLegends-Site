@@ -66,7 +66,7 @@
 			</div>
 		</header>
 		<!-- ExtraPlanets Section -->
-		<section id="extraplanets" class="mods-section">
+		<section id="extraplanets" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -177,7 +177,7 @@
 			</div>
 		</section>
 		<!-- GalacticraftTweaker Section -->
-		<section id="galacticrafttweaker" class="mods-section-alt">
+		<section id="galacticrafttweaker" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -203,7 +203,7 @@
 			</div>
 		</section>
 		<!-- BlankPlanet Section -->
-		<section id="blankplanet" class="mods-section">
+		<section id="blankplanet" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -246,7 +246,7 @@
 			</div>
 		</section>
 		<!-- Tinkers Extras Section -->
-		<section id="tinkersextras" class="mods-section-alt">
+		<section id="tinkersextras" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -282,7 +282,7 @@
 			</div>
 		</section>
 		<!-- MJRLegendsLib Section -->
-		<section id="mjrlegendslib" class="mods-section">
+		<section id="mjrlegendslib" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -301,7 +301,7 @@
 			</div>
 		</section>
 		<!-- SpaceAstronomyTweaks Section -->
-		<section id="spaceastronomytweaks" class="mods-section-alt">
+		<section id="spaceastronomytweaks" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -340,7 +340,7 @@
 			</div>
 		</section>
 		<!-- MorePlanetExtras Section -->
-		<section id="moreplanetextras" class="mods-section">
+		<section id="moreplanetextras" class="content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">
@@ -371,7 +371,7 @@
 			</div>
 		</section>
 		<!-- Planet Progression Section -->
-		<section id="planetprogression" class="mods-section-alt">
+		<section id="planetprogression" class="content-section-alt content-section text-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto">

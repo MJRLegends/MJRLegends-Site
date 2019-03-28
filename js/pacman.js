@@ -134,7 +134,7 @@ var pausedButtons = []; //An array to store the paused menu buttons
 //Load the image
 var image = new Image();
 image.addEventListener("load", gameMain, false);
-image.src = "images/spritesheet.png";
+image.src = "images/pacmanSpritesheet.png";
 
 //Button key codes
 var UP = 87;
@@ -879,7 +879,7 @@ function render() { // Main Render method
 function mainMenu(){ // Render method for the main menu
 	//Renders the background image for the main menu
 	var image = new Image();
-	image.src= "images/menuBackground.png";
+	image.src= "images/pacmanMenuBackground.png";
 	image.blur = true;
 	drawingSurface.drawImage(image,0,0,canvas.width,canvas.height);
 	
